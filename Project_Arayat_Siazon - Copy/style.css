@@ -1,0 +1,114 @@
+@font-face { 
+		font-family: CrimsonText-Regular;
+		src:url(Fonts/CrimsonText-Regular.ttf);
+	}
+@font-face { 
+		font-family: Montserrat-Light;
+		src:url(Fonts/Montserrat-Light.ttf);
+	}
+body {
+	background-color: #1c1b1b;
+	color: white;
+}
+#Icon {
+		width: 75px;
+		float: left;
+}
+	
+@media screen and (max-width: 770px) {
+	header {
+		text-align: center;
+	}
+	.col-4 {
+		
+	}
+}
+header {
+	left: 100%;
+	background-color: #ad3b2d;
+	padding: 0px ;
+}
+a {
+	color: white;
+}
+a:hover{
+	text-decoration:underline;
+	color: white;
+}
+nav {
+	display: block;
+	float: right;
+	
+}
+h5 {
+	margin-bottom: 0px;
+}
+
+
+#homepic{
+	
+}
+.col-4 {
+	background-color: #ad3b2d;
+	top:100px;
+}
+li {
+	margin-bottom: 10px;
+}
+
+
+
+#home, #article, #about {
+	float: right;
+	text-decoration: none;
+	list-style-type: none;
+	align-content: center;
+	padding-bottom: 10px;
+	padding-top:15px;
+	padding-right:20px;	
+	padding-left: 20px;
+	font-size: 16px;
+	transition: 0.5s ease all;
+    background-blend-mode:multiply;
+	font-family: Montserrat-Light, sans-serif;
+	border-top: 3px solid #1c1b1b;
+	
+}
+#home:hover{
+	background-color: #f5ab0c;
+	border-top-color: #f5ab0c;
+}
+#article:hover{
+	background-color:  #ad3b2d;
+	border-top-color: #ad3b2d;
+}
+#about:hover{
+	background-color: #f5ab0c;
+	border-top-color: #f5ab0c;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 800px;
+    }
+}
+.yellowbutton {
+	width: 140px;
+	color: white;
+	background-color: #f5ab0c;
+	border-radius: 0px;
+	float: right;
+}
+
+
+
+
+.social {
+	width: 40px;
+}
+.abouthead {
+	font-family: Montserrat-Light, sans-serif;
+}
+.aboutcontent {
+	font-family: CrimsonText-Regular, serif;
+}
